@@ -1,0 +1,52 @@
+html, body{overflow: hidden;}
+#calendarClick{width: 250px;height:auto;font-family:"Arial, Helvetica, sans-serif";margin:6px;position: fixed; top:58px; z-index: 50000;border-radius: 4px; background-color: white;}
+#tableN{width:100%;height:100%;table-layout:fixed;text-align: center;border:none;background-color:rgba(205,205,205, 0.5);}
+#tableN td{border:none;padding:0;cursor:pointer;}
+#tableN td p{padding:0;margin:0;font-weight:bold;font-size:12px;}
+#tableN tr{height: 35px;}
+#tableN #bdownMonth, #tableN #bupMonth, #tableN #bdownYear, #tableN #bupYear, #tableN #yearName,#tableN #monthName{border:none;border-collapse:collapse;border-spacing:0;};
+#tableN #yearName p,#tableN #monthName p{font-size: 18px;}
+#tableN #bdownMonth, #tableN #bupMonth,#tableN #monthName{border-bottom-width: 2px !important; border-bottom-color: black !important;border-bottom-style: solid !important;}
+#tableN #bdownYear, #tableN #bupYear,#tableN #yearName{border-top-width: 2px !important; border-top-color: black !important;border-top-style: solid !important;}
+#addNote{margin-top: 23px;}
+.monthDay{color:black;}
+.sunDay{color:red;}
+.otherMonth{color:gray}
+.activeDay:hover{background-color:#CDCDCD; color: white;}
+.currentDay{border-color: orange; background-color: rgba(220, 90, 21, 0.3);}
+.butArrow{border: none;}
+#lineDays{font-weight: bold; font-size: 10px;}
+#tableN #lineDays{border-top-style: solid;border-top-width: 1px; border-top-color: black;border-bottom-style: solid;border-bottom-width: 1px; border-bottom-color: black;}
+.butfontN{-moz-height:25px; font-family:"Ardora_arrows",Sans-Serif; font-size: 22px;cursor: pointer; -webkit-padding-before:2px;color:#000000;opacity:1; margin:0 5px 5px 0;padding: 3px 3px 0 3px;}
+.butfontN:hover{color:#FFFFFF;}
+#tableN .selectDay{ border-style: solid;border-width: 2px;border-color:rgb(205,205,205);border-radius:20px;background-color:white;}
+#notesDay{ margin:2px 5px 4px 5px;width:calc( 100% - 30px);height:calc( 100% - 155px);top:50px;position:absolute;border-radius: 4px;overflow: auto;border-style:dashed;border-width:3px; border-color:#FF8000;}
+#headerDay{width:calc( 100% - 30px);margin:2px 5px 4px 5px;height:60px;position: absolute;top: 0;}
+#butShowCalendar{font-size: 20px !important; width: 25px !important;top: 10px;}
+#headerDayDate{font-family:Century Gothic, sans-serif;font-size:24px !important;color:#000000;}
+#headerDay p{font-size:40px;margin: 0 10px 0 0;padding-left: 5px;}
+.note{font-family:Century Gothic, sans-serif;width: calc( 100% - 25px);margin: 10px;padding: 5px;background-color:#FFFF80;overflow: hidden;border-radius: 4px;}
+.note p{margin:5px; text-align: justify; }
+.clear{clear: both;}
+.butNote{-moz-height:25px; font-family:"Ardora_arrows",Sans-Serif; font-size: 22px;cursor: pointer; border:1px #666;border-style:solid;-webkit-padding-before:2px;color:#000000;background-color:#FFFFFF;opacity:1;box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.5); border-radius: 4px; margin:23px 5px 5px 0;padding: 3px 3px 0 3px;}
+.butNote:hover{box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.5); color:#FFFFFF; background-color:#000000;}
+.bLeft{float: left;}
+.bRight{float: right;}
+.noteDate{padding:2px; font-size:12px;border-radius: 4px;color:#000000;}
+#footerNotes{position:absolute; top:calc( 100% - 120px);width: calc( 100% - 30px); margin:5px;}
+.cNote{width:25px; padding: 0; cursor: pointer;float:left;clear:both;}
+#bdownMonth, #monthName, #bupMonth{ background:linear-gradient(to top,#CDCDCD,#FFFFFF);}
+#bdownMonth p, #bdownYear p{margin-left: 5px !important;}
+#bdownYear, #yearName, #bupYear{ background:linear-gradient(to bottom,#CDCDCD,#FFFFFF);}
+.ctitle{font-size:16px; color:#000000;clear:both;}
+.ccoment{font-size:12px; color:#000000;float: left;padding-top: 10px;padding: 5px;}
+.ctype{font-size:12px; color:#000000;clear:both;}
+.bEditNote{float: right;}
+#f_head{display: ruby-text-container;height: 15px;}
+#f_head label{float: left;}
+#type{float: right;}
+#p_type{text-align: right;}
+#p_type input{margin-left: 5px;}
+.ctitle{border:none;background: border-box;}
+.ccoment{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;background: border-box;width: 100%; margin-bottom: 5px; border-style: dashed;border-width: 1px;}
+.ptit{margin: 5px 5px 0 5px;}

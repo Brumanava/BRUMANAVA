@@ -1,0 +1,37 @@
+/*Creado con Ardora - www.webardora.net
+bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor*/
+@font-face {font-family: "Ardora_arrows";src: url("fonts/ardoraArrows/Ardora_arrows.eot");src: local("?"), url("fonts/ardoraArrows/Ardora_arrows.woff") format("woff"),
+url("fonts/ardoraArrows/Ardora_arrows.ttf") format("truetype"), url("fonts/ardoraArrows/Ardora_arrows.svg") format("svg");font-weight: normal;font-style: normal;}
+#cabeceira{padding: 5px;}
+#cabeceira h1{font-size: 12px; font-family:Century Gothic, sans-serif;border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: black;color:#000000;}
+#cabeceira p{text-align: center;font-family:Verdana, Geneva, sans-serif;font-size:12;}
+body{background-color:#FFFFFF;}
+*,*:after,*:before{box-sizing: border-box;padding:0;margin:0;}
+.clearfix:after {content:"";display:table;clear:both;}
+.formLogin{width:320px; margin: 60px auto 30px;padding:10px;position: relative;font-family:Century Gothic, sans-serif;}
+.formLogin p{padding: 0 0 10px 0;font-size:14px;color:#000000;}
+.formLogin input[type=text],.formLogin input[type=password] {width: calc(100% - 30px);padding: 8px 4px 8px 10px;margin-bottom: 15px;
+border: 1px solid #808080;border-radius: 4px;
+color:#808080;font-size:14px;background-color:#FFFFFF;float:  left;}
+.formLogin input::-webkit-input-placeholder {color:#808080;}
+.formLogin input::-moz-placeholder {color:#808080;}
+.formLogin input:-moz-placeholder {color:#808080;}
+.formLogin input::-ms-input-placeholder {color:#808080;}
+.formLogin input[type=text]:hover,.formLogin input[type=password]:hover {border-color:#000000;}
+.formLogin input[type=text]:focus,.formLogin input[type=password]:focus,.formLogin input[type=submit]:focus {outline: none;border-color:#DEB8FE;box-shadow:inset 2px 2px 10px 0px rgba(50, 50, 50, 0.75);color:#000000;}
+.no-boxshadow .formLogin input[type=text]:focus,.no-boxshadow .formLogin input[type=password]:focus {outline: 1px solid white;}
+.formLogin input[type=submit] {width: 100%;padding: 8px 5px;border-radius: 5px;box-shadow: inset 0 1px rgba(255,255,255,0.4), 0 2px 1px rgba(0,0,0,0.1);cursor: pointer;
+border: 1px solid #000000;transition: all 0.3s ease-out;color:black;text-shadow: 0 1px 0 rgba(0,0,0,0.3);font-size:14px;font-weight: bold;
+background: linear-gradient(to bottom, rgba(222,184,254,1) 0%,rgba(254,249,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#DEB8FE", endColorstr="#FEF9FF",GradientType=0 );}
+.formLogin input[type=submit]:hover {color:#FFFFFF;box-shadow: inset 0 1px rgba(10,10,10,0.2), inset 0 20px 30px rgba(0,0,0,0.5);}
+.no-boxshadow .formLogin input[type=submit]:hover {background:#000000;}
+.formLogin label {visibility: hidden;}
+.no-placeholder .formLogin label {display: block;}
+#mensaxe{padding: 4px 0 4px 0;text-align: justify;}
+.iconForm{font-family: "Ardora_arrows";float: left;width: 28px;margin:0px;padding: 0px;}
+.iconForm p{margin-top: 10px;font-size: 18px;}
+#warning_i p{color: red;font-size: 38px; margin-top: 0px;}
+#warning_m {color: red;margin-left: 48px;}
+#warning_m p{color: red;font-size:14px;}
+#name, #password{font-family:Century Gothic, sans-serif;}
